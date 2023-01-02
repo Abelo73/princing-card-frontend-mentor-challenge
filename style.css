@@ -113,7 +113,6 @@ li{
 @media (max-width:500px){
 	.card{
 		overflow: visible;
-		background-color: red;
 	}
 	.bottom-card{
 		flex-direction: column;
