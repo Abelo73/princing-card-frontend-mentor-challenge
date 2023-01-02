@@ -1,0 +1,123 @@
+
+*{
+	margin: 0px ;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+	margin-top: 40px;
+	background-color: #fffff2;
+}
+
+/*Card geos here*/
+.card{
+	width: 600px;
+	height: 350px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 4px 3px 7px 0 rgba(0, 0, 0.4, 0.5);
+	overflow: hidden;
+}
+
+/*Top card geos here*/
+.top-card{
+	padding: 20px;
+	height: 40%;
+}
+.top-card h2{
+	color: hsl(179, 62%, 43%)
+}
+.top-card h4{
+	color: hsl(71, 83%, 30%);
+	font-weight: 700;
+}
+
+.top-card p{
+	color: hsl(28, 22%, 40%);
+	margin-top: 10px;
+	font-size: 17.5px;
+}
+
+
+/*Bottom card goes here*/
+.bottom-card{
+	display: flex;
+	height: 60%;
+}
+
+
+/*Left card goes here*/
+.left-card{
+	padding: 20px;
+	flex-basis: 50%;
+	background-color: hsl(179, 62%, 43%);
+}
+h2,h3{
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+
+.price-items{
+	display: flex;
+	align-items: center;
+}
+.price{
+	margin-right: 5px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.price-items .text{
+	color: hsl(204, 43%, 93%);
+}
+
+.left-card p{
+	color: whitesmoke;
+	margin-top: 10px;
+}
+button{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	margin-top: 40px;
+	color: white;
+	background-color: hsl(71, 73%, 54%);
+	font-size: 20px;
+}
+
+
+
+/*Right card Goes here*/
+.right-card{
+	padding: 20px;
+	background-color: hsl(180, 64%, 50%);
+	flex-basis: 50%;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	color: hsl(204, 43%, 93%);
+	opacity: 0.8;
+}
+
+/*Responsive Mobile */
+
+@media (max-width:500px){
+	.card{
+		overflow: visible;
+		background-color: red;
+	}
+	.bottom-card{
+		flex-direction: column;
+/*		width: 60%;*/
+	}
+	.left-card{}
+}
